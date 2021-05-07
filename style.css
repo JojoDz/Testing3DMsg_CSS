@@ -1,0 +1,22 @@
+.container .box span{
+    position: absolute;
+    color: #FFF;
+    font-size: 3.5em;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 0 10px;
+    background: linear-gradient(90deg, transparent, rgba(0,0,0,0.5), transparent);
+    line-height: 0.78em;
+    transform-style: preserve-3d;
+    text-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    transform: translate(-50%, -50%) rotateX(calc(var(--i) * 22.5deg)) translateZ(106px);   
+}
+.container .box span i:nth-child(1){
+    font-style: initial;
+    color: #ff246F;
+}
+.container .box span i:nth-child(2){
+    font-style: initial;
+    color: #12b5ff;
+}
